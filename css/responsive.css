@@ -87,93 +87,93 @@
     .col-sm-12 {
         margin-bottom: 13px;
     }
-.store button {
-    padding: 9px;
-}
-.chooseUs .col-sm-3 {
-    margin-bottom: 39px;
-}
-#testimonial-slider {
-     
-    margin-top: 43px;
-}
-.testimonials .imgClient .col-sm-6 {
-    
-    margin-bottom: 35px;
-}
-  .contentAbsolute {
-   visibility: hidden;
-}
-.figureProducts:hover .contentAbsolute {
-    visibility: visible;
-    text-align: center;
-    position: absolute;
-    background-color: #515151;
-   top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-padding: 88px;
-}
-.procentage {
-    color: #2a2a2a;
-    padding-left: 8px;
-    padding-right: 20px;
-}
-.fa-heart-o::before {
-    content: "\f08a";
-}
-*::before, *::after {
-    padding-right: 9px;
-}
-.blog .content a {
-    padding-left: 17px;
-}
-.blog .col-sm-4 {
-    margin-top: 28px;
-} 
-.footerDiv span{
-    padding-left: 9px;
-} 
-.newsletter {
-    margin-top: 39px;
-}
-.offer {
-    margin-top: 21px;
-}
-.blogArticle {
-    margin-bottom: 33px;
-    margin-top: 21px;
-}
-.blog1 .blogHover {
-    padding: 46px; 
-}
-.blog1 .content .fa {
-    padding-left: 6px;
-}
-.sideTags {
-    margin-top: 61px;
-}
-.fancybox img {
-    margin-bottom: 10px;
-margin-top: 21px;
-}
-.divAuthor .media-left img {
-    text-align: center;
-    display: inline-block;
-}
-.singleComment {
-    display: inline-block;
-}
-.divAuthor img {
-    margin-left: 22%;
-}
-.divAuthor .media-left img { 
-    margin-left: 0px;
-}
-.commentSingle1 {
-    margin-top: 31px;
-}
+    .store button {
+        padding: 9px;
+    }
+    .chooseUs .col-sm-3 {
+        margin-bottom: 39px;
+    }
+    #testimonial-slider {
+
+        margin-top: 43px;
+    }
+    .testimonials .imgClient .col-sm-6 {
+
+        margin-bottom: 35px;
+    }
+    .contentAbsolute {
+        visibility: hidden;
+    }
+    .figureProducts:hover .contentAbsolute {
+        visibility: visible;
+        text-align: center;
+        position: absolute;
+        background-color: #515151;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 88px;
+    }
+    .procentage {
+        color: #2a2a2a;
+        padding-left: 8px;
+        padding-right: 20px;
+    }
+    .fa-heart-o::before {
+        content: "\f08a";
+    }
+    *::before, *::after {
+        padding-right: 9px;
+    }
+    .blog .content a {
+        padding-left: 17px;
+    }
+    .blog .col-sm-4 {
+        margin-top: 28px;
+    } 
+    .footerDiv span{
+        padding-left: 9px;
+    } 
+    .newsletter {
+        margin-top: 39px;
+    }
+    .offer {
+        margin-top: 21px;
+    }
+    .blogArticle {
+        margin-bottom: 33px;
+        margin-top: 21px;
+    }
+    .blog1 .blogHover {
+        padding: 46px; 
+    }
+    .blog1 .content .fa {
+        padding-left: 6px;
+    }
+    .sideTags {
+        margin-top: 61px;
+    }
+    .fancybox img {
+        margin-bottom: 10px;
+        margin-top: 21px;
+    }
+    .divAuthor .media-left img {
+        text-align: center;
+        display: inline-block;
+    }
+    .singleComment {
+        display: inline-block;
+    }
+    .divAuthor img {
+        margin-left: 22%;
+    }
+    .divAuthor .media-left img { 
+        margin-left: 0px;
+    }
+    .commentSingle1 {
+        margin-top: 31px;
+    }
 }
 
 
@@ -240,5 +240,63 @@ margin-top: 21px;
 
 
 @media (min-width:1200px){
+    element {
+    }
+    .navbar-nav > li {
+        padding-left: 45px;
+    }
+    .headerBottom .media {
+        margin-top: 27px;
+    }
+    .cart {
+        margin-top: 43px;
+    }
+    .cartNum {
+        margin-top: 44px;
+    }
+    p.mailto {
+        margin-left: 47px;
+    }
+    p.headerSocial {
+        margin-right: 100px;
+    }
+    .carousel-caption h1 {
+        font-size: 43px;
+    }   
+    .carousel-caption h2 {
+        font-size: 36px;
+    }   
+    .carousel-caption p {
+        display: inherit;
+    }
 
+    .carousel-caption {
+        text-align: right;
+        top: 31%;
+        left: 53%;
+        width: 33%;
+    }
+    .carousel-caption button {
+        padding: 10px 25px 10px 20px;
+    }
+    .carousel-caption .learnmore {
+        padding: 10px 25px 10px 20px;
+    }
+    .col-sm-2 .fa {
+        font-size: 29px;
+    }
+    .about {
+        padding-bottom: 68px;
+        padding-top: 55px;
+    }
+    .col-sm-offset-3 {
+    margin-bottom: 26px;
+}
+    .servicesOffer h3 {
+    margin-left: 75px;
+}
+.servicesOffer p {
+    margin-left: 73px;;
+}
+    
 }

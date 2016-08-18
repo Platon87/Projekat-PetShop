@@ -1,5 +1,8 @@
 /* INDEX CSS START */
 
+a, h1, h2, h3, h4, h5, p, li, button {
+    font-family: 'Oxygen', sans-serif;
+}
 header .container-fluid {
     background-color: #f5f5f5;
 }
@@ -19,12 +22,23 @@ header .container-fluid {
 
 .navbar-default .navbar-nav > li > a {
     color: white;
+    font-weight: bold;
 }
 .navbar-default .navbar-nav > li > a:hover {
     background-color: rgb(69, 164, 237);
 }
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+element {
+}
+.navbar-nav > li {
+    padding-left: 46px;
+}
 .slider img {
     width: 100%;
+
 }
 .carousel-inner button {
 
@@ -47,6 +61,10 @@ header .container-fluid {
 }
 .about {
     padding-bottom: 37px;
+}
+.about h3 {
+    background: url(style-images/underline.png)no-repeat bottom center;
+    padding-bottom: 9px;
 }
 .foods1 a  {
     color: white;
@@ -91,6 +109,12 @@ header .container-fluid {
 .services .col-sm-3 .fa {
     padding-right: 9px;
 }
+.tab-content > .active {
+    background-color: #f8f8f8;
+}
+.store h4 {
+    font-weight: bold;
+} 
 .store {
     background: url(style-images/store.png) no-repeat center center fixed;
     background-size: cover;
@@ -104,6 +128,10 @@ header .container-fluid {
 }
 .store button:hover {
     background-color: #997300;
+}
+.chooseUs{
+    padding-bottom: 75px;
+    padding-top: 28px;
 }
 .chooseUs h3 {
     background: url(style-images/chooseUsLine.png)no-repeat bottom center;
@@ -161,9 +189,17 @@ h3.h3Slider{
 .testimonials .imgClient .col-sm-6{
     margin-top: 26px;
 }
+.testimonials {
+    padding-bottom: 56px;
+    padding-top: 45px;
+}
 img.clientImg{
     margin: 0 auto;
     border: 3px solid #000;
+}
+.testimonials .media-left .fa {
+    font-size: 33px;
+    color: white;
 }
 .imageFigure{
     border: 1px solid gray;
@@ -605,7 +641,7 @@ a.checkboxText{
     background: #539e22;
     color: #fff;
     padding: 10px 0 10px 20px;   
-   
+
 }
 .nstSlider {
     position: relative;
