@@ -134,7 +134,10 @@
     } 
     .footerDiv span{
         padding-left: 9px;
-    } 
+    }
+    .footerBody .openTime {
+    margin-top: 59px;
+}
     .newsletter {
         margin-top: 39px;
     }
@@ -204,7 +207,16 @@
     .cart {
         float: right;
     }
-
+    .headerBottom .media {
+        margin-top: 27px;
+    }
+    .navbar-nav> li{
+        float: none;
+        display: inline-block;
+    }
+    .nav > li > a {
+        padding: 10px 10px;
+    }
     .headerBottom .media {
         display: block;
     }
@@ -290,13 +302,18 @@
         padding-top: 55px;
     }
     .col-sm-offset-3 {
-    margin-bottom: 26px;
-}
+        margin-bottom: 26px;
+    }
     .servicesOffer h3 {
-    margin-left: 75px;
-}
-.servicesOffer p {
-    margin-left: 73px;;
-}
-    
+        margin-left: 75px;
+    }
+    .servicesOffer p {
+        margin-left: 73px;;
+    }
+    /* BLOG CSS START*/
+
+    .navbar-nav > li {
+        padding-left: 42px;
+    }
+    /* BLOG CSS END*/
 }
