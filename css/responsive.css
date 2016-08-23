@@ -216,9 +216,7 @@
         float: none;
         display: inline-block;
     }
-    .nav > li > a {
-        padding: 10px 10px;
-    }
+    
     .headerBottom .media {
         display: block;
     }

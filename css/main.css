@@ -311,17 +311,17 @@ figure.imageOurTeam:hover .drInfo, figure.imageOurTeam:focus .drInfo{
     position: relative;
 }
 .figureProducts:hover .contentAbsolute {
-        visibility: visible;
-        text-align: center;
-        position: absolute;
-        background-color: #515151;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        padding: 88px;
-    }
-    .contentAbsolute{
+    visibility: visible;
+    text-align: center;
+    position: absolute;
+    background-color: #515151;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 88px;
+}
+.contentAbsolute{
     position: absolute;
     bottom: 0;
     top: 0;
@@ -895,16 +895,16 @@ span.qtySpan,
 span.sizeSpan{
     line-height: 30px;
 }
-nav .filterNav {
+.filterNav {
     font-size: 24px;
     margin-bottom: 50px;
 }
-nav .filterNav ol {
+.filterNav ol {
     list-style: none;
     margin-top: 30px;
     padding: 0;
 }
-nav .filterNav ol li {
+.filterNav ol li {
     font-size: 15px;
     margin: 5px 15px;
     float: left;
@@ -917,11 +917,11 @@ nav .filterNav ol li {
     border: 1px solid #a0a0a0;
     padding: 5px 20px;
 }
-nav .filterNav ol li:hover {
+.filterNav ol li:hover {
     background-color: #a0a0a0;
     color: #fff;
 }
-nav .filterNav ol li.active {
+.filterNav ol li.active {
     background-color: #333333;
     color: #fff;
 }
@@ -940,3 +940,48 @@ button.buttonSubmit{
     font-weight: 800;
 }
 /* SHOP CONTACT END */
+
+/* LOG IN START */
+.mainForm h3 {
+    font-weight: bold;
+}
+.privacy {
+    background-color: #4d4d4d;
+    color: white;
+    padding: 20px 16px;
+    margin-top: 19px;
+}
+.privacy h2 {
+    color: #178de8;
+}
+.mainForm {
+    margin: 0 auto;
+}
+/* LOG IN END */
+
+/* FORGOT PASSWORD START */
+.accountForm {
+    margin: 0 auto;
+}
+#menu1 .row {
+    margin: 0 auto;
+}
+#menu2 .row {
+    margin: 0 auto;
+}
+.row .register {
+    text-align: center !important;
+}
+.entrance .col-sm-4 {
+    margin-bottom: 14px;
+}
+
+.requiredField {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    color: red;
+}

@@ -55,17 +55,19 @@ jQuery(document).ready(function ($) {
 
     /* BLOG SINGLE PAGE -  FANCY BOX END  */
 
+    /* FILTER NAV START */
 
     $(function () {
-                $('#Container').mixItUp({
-                    animation: {
-                        enable: true,
-                        effects: 'fade scale',
-                        duration: 1500
-                    }
-                });
-            });
+        $('#Container').mixItUp({
+            animation: {
+                enable: true,
+                effects: 'fade scale',
+                duration: 1500
+            }
+        });
+    });
 
+    /* fFILTER NAV START */
 
 
 
