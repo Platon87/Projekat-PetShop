@@ -44,6 +44,12 @@
     .carousel-caption .learnmore {
         padding: 4px;
     }
+    .servicesOffer h3 {
+        margin-left: 20px;
+    }
+    .servicesOffer p {
+        padding-left: 15px;
+    }
     .wellness1 {
         position: relative;
         margin-bottom: 10px;
@@ -104,17 +110,7 @@
     .contentAbsolute {
         visibility: hidden;
     }
-    .figureProducts:hover .contentAbsolute {
-        visibility: visible;
-        text-align: center;
-        position: absolute;
-        background-color: #515151;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        padding: 88px;
-    }
+
     .procentage {
         color: #2a2a2a;
         padding-left: 8px;
@@ -136,8 +132,8 @@
         padding-left: 9px;
     }
     .footerBody .openTime {
-    margin-top: 59px;
-}
+        margin-top: 59px;
+    }
     .newsletter {
         margin-top: 39px;
     }
@@ -207,6 +203,12 @@
     .cart {
         float: right;
     }
+    .cart {
+        margin-top: 43px;
+    }
+    .cartNum {
+        margin-top: 44px;
+    }
     .headerBottom .media {
         margin-top: 27px;
     }
@@ -221,17 +223,47 @@
         display: block;
     }
 
+    .carousel-caption h1 {
+        font-size: 43px;
+    }   
+    .carousel-caption h2 {
+        font-size: 36px;
+    }   
+    .carousel-caption p {
+        display: inherit;
+    }
+
     .carousel-caption {
         text-align: right;
-        top: 20%;
-        left: 20%;
-        width: 30%;
+        top: 12%;
+        left: 53%;
+        width: 33%;
+    }
+    .carousel-caption button {
+        padding: 10px 25px 10px 20px;
+    }
+    .carousel-caption .learnmore {
+        padding: 10px 25px 10px 20px;
     }
     .foods1 p:last-of-type  {
         display: block;
     }
-
-
+    .formAppoinment {
+        padding-right: 52px;
+    }
+    .procentage {
+        color: #ffbe01;
+        padding-left: 8px;
+        padding-right: 20px;
+    }
+    .footerBody .openTime {
+        margin-top: 38px;
+    }
+    /* BLOG PAGE START */
+    .sideTags {
+        margin-top: 37px;
+    }
+    /* BLOG PAGE END  */
 
 
 
@@ -241,7 +273,19 @@
 
 
 @media (min-width:992px){
-
+    
+    /* SHOP PETS CSS START*/
+    .filterMenu article {  
+        margin-bottom: 71px;
+        margin-top: 59px;
+    }
+    div.rangeSliderForm {
+    width: 196px;
+}
+.nstSlider {
+    width: 203px;
+}
+    /* SHOP PETS CSS END*/
 
 
 }
@@ -260,12 +304,7 @@
     .headerBottom .media {
         margin-top: 27px;
     }
-    .cart {
-        margin-top: 43px;
-    }
-    .cartNum {
-        margin-top: 44px;
-    }
+
     p.mailto {
         margin-left: 47px;
     }
@@ -284,7 +323,7 @@
 
     .carousel-caption {
         text-align: right;
-        top: 31%;
+        top: 38%;
         left: 53%;
         width: 33%;
     }
@@ -294,6 +333,7 @@
     .carousel-caption .learnmore {
         padding: 10px 25px 10px 20px;
     }
+
     .col-sm-2 .fa {
         font-size: 29px;
     }
@@ -316,4 +356,11 @@
         padding-left: 42px;
     }
     /* BLOG CSS END*/
+
+    .sideContent {
+        margin-top: 60px;
+    }
+    .productsDetails {
+        margin-top: 30px;
+    }
 }
