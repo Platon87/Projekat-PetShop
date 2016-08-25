@@ -6,6 +6,183 @@ a, h1, h2, h3, h4, h5, p, li, button {
 header .container-fluid {
     background-color: #f5f5f5;
 }
+header a {
+        padding-left: 33px;
+    }
+    header fa {
+        font-size: 25px;
+    }
+    .headerBottom .col-sm-4 img{
+        padding: 27px;
+    }
+    .headerBottom .media {display: none;}
+    .cart1 {
+        position: relative;
+    }
+    .cartNum {
+        position: absolute;
+        top: -8px;
+        right: 7px;
+    }
+    .cart {
+        float: right;
+        padding-bottom: 20px;
+    }
+    .carousel-caption h1 {
+        font-size: 14px;
+    }   
+    .carousel-caption h2 {
+        font-size: 14px;
+    }   
+    .carousel-caption p {
+        display: none;
+    }
+
+    .carousel-caption {
+        text-align: right;
+        top: 23%;
+        right: 39%;
+        width: 75%;
+    }
+    .carousel-caption button {
+        padding: 4px;
+    }
+    .carousel-caption .learnmore {
+        padding: 4px;
+    }
+    .servicesOffer h3 {
+        margin-left: 20px;
+    }
+    .servicesOffer p {
+        padding-left: 15px;
+    }
+    .wellness1 {
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    .wellness2 {
+        position: absolute;
+        width:  151px;
+        left: 10px;
+        bottom: 70px;
+        color: #fff;
+        top: 12px;
+    }
+    .foods {
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    .foods1 {
+        position: absolute;
+        width: 177px;
+        left: 10px;
+        bottom: 70px;
+        color: #fff;
+        top: 12px;
+    }
+    .foods2 {
+        position: absolute;
+        top: 47px;
+        left: 23px;
+    }
+    .foods1 p:last-of-type  {
+        display: none;
+    }
+    .foods2 img{
+        z-index: -1;
+    }
+    .col-sm-3 {
+        margin-bottom: 13px;
+    }
+    .col-sm-12 {
+        margin-bottom: 13px;
+    }
+    .store button {
+        padding: 9px;
+    }
+    .chooseUs .col-sm-3 {
+        margin-bottom: 39px;
+    }
+    #testimonial-slider {
+
+        margin-top: 43px;
+    }
+    .testimonials .imgClient .col-sm-6 {
+
+        margin-bottom: 35px;
+    }
+    .contentAbsolute {
+        visibility: hidden;
+    }
+
+    .procentage {
+        color: #2a2a2a;
+        padding-left: 8px;
+        padding-right: 20px;
+    }
+    .fa-heart-o::before {
+        content: "\f08a";
+    }
+    *::before, *::after {
+        padding-right: 9px;
+    }
+    .blog .content a {
+        padding-left: 17px;
+    }
+    .blog .col-sm-4 {
+        margin-top: 28px;
+    } 
+    .footerDiv span{
+        padding-left: 9px;
+    }
+    .footerBody .openTime {
+        margin-top: 59px;
+    }
+    .newsletter {
+        margin-top: 39px;
+    }
+    .offer {
+        margin-top: 21px;
+    }
+    .blogArticle {
+        margin-bottom: 33px;
+        margin-top: 21px;
+    }
+    .blog1 .blogHover {
+        padding: 46px; 
+    }
+    .blog1 .content .fa {
+        padding-left: 6px;
+    }
+    .sideTags {
+        margin-top: 61px;
+    }
+    .fancybox img {
+        margin-bottom: 10px;
+        margin-top: 21px;
+    }
+    .divAuthor .media-left img {
+        text-align: center;
+        display: inline-block;
+    }
+    .singleComment {
+        display: inline-block;
+    }
+    .divAuthor img {
+        margin-left: 22%;
+    }
+    .divAuthor .media-left img { 
+        margin-left: 0px;
+    }
+    .commentSingle1 {
+        margin-top: 31px;
+    }
+    .similarProduct article {
+        margin-bottom: 37px;
+        margin-top: 17px;
+    }
 .cart1 {
     position: relative;
 }
@@ -290,7 +467,7 @@ figure.imageOurTeam:hover .drInfo, figure.imageOurTeam:focus .drInfo{
     margin-bottom: 25px;
 }
 .shop h3 {
-    background: url(style-images/shopLine.png)no-repeat bottom center;
+    background: url(style-images/servicesLine.png)no-repeat bottom left;
     padding-bottom: 9px;
     padding-top: 13px;
 }
@@ -303,9 +480,9 @@ figure.imageOurTeam:hover .drInfo, figure.imageOurTeam:focus .drInfo{
 .shop .figureProducts {
     border-bottom: 1px solid #d1d1d1;
 }
-.shop article {
-    margin-bottom: 26px;
-    margin-top: 16px;
+.shop .select, .filter, .category, .sellers {
+    margin-bottom: 47px;
+    margin-top: 62px;
 }
 .figureProducts {
     position: relative;
@@ -330,6 +507,11 @@ figure.imageOurTeam:hover .drInfo, figure.imageOurTeam:focus .drInfo{
     background: #000;
     visibility: hidden;
 }
+.faAbsolute {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
 .Newproduct{
     position: absolute;
     top: -20px;
@@ -527,7 +709,7 @@ element {
     padding-left: 5px;
 }
 .footerSocial .fa:hover, .footerSocial .fa:focus{
-    color: #dd4b39;
+    color: #1377c5;
 
 }
 .footerSocial .fa:hover a.aSocial, .footerSocial .fa:focus a.aSocial{
@@ -837,7 +1019,7 @@ button.filterButton:hover,button.filterButton:focus{
     color: #fff;
 }
 .category h4{
-    background: #f44027;
+    background: #ffbe01;
     color: #fff;
     padding: 10px 0 10px 20px;    
 }
@@ -928,7 +1110,29 @@ span.sizeSpan{
 .figureProducts img {
     width: 100%;
 }
+.productsImg article {
+    margin-bottom: 26px;
+}
 /* SHOP PETS CSS END */
+
+/* SHOP DETAILS START */
+.detailRating .fa {
+    color: #ffba00;
+}
+.fullreviews .priceReview {
+    color: #868686;
+}
+.connectList .fa {
+    background-color: #ffbe01;
+    color: white;
+    padding: 10px;
+}
+.detailsButton {
+    background: #ffbe01;
+    padding: 5px 10px;
+    color: white;
+}
+/* SHOP DETAILS END */
 
 /* SHOP CONTACT START */
 iframe.map{
@@ -979,9 +1183,32 @@ button.buttonSubmit{
 .requiredField {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 7px;
     font-size: 14px;
     font-style: normal;
     font-weight: bold;
     color: red;
 }
+.mainField {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    color: red;
+}
+.fieldP {
+    margin-bottom: 40px;
+}
+.accountH3 {
+    margin-top: 45px;
+}
+.verifyCode {
+    text-align: center;
+    display: inline-block;
+}
+.refreshCode {
+    margin-top: 9px;
+}
+.tab-content > .active {
+    margin-top: 19px;
+}
+/* FORGOT PASSWORD END */
