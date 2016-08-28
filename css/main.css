@@ -151,7 +151,7 @@ header a {
         margin-top: 21px;
     }
     .blog1 .blogHover {
-        padding: 46px; 
+        padding:  45px;
     }
     .blog1 .content .fa {
         padding-left: 6px;
@@ -467,7 +467,7 @@ figure.imageOurTeam:hover .drInfo, figure.imageOurTeam:focus .drInfo{
     margin-bottom: 25px;
 }
 .shop h3 {
-    background: url(style-images/servicesLine.png)no-repeat bottom left;
+    background: url(style-images/servicesLine.png)no-repeat bottom;
     padding-bottom: 9px;
     padding-top: 13px;
 }
@@ -664,7 +664,7 @@ div.content{
     padding-left: 11px;
 }
 .media span, .faqList a {
-    color: #eaeaea;
+    color: #a2a2a2;
 }
 .media span {
     font-size: 19px;
@@ -1143,6 +1143,15 @@ button.buttonSubmit{
     padding: 5px 30px;
     font-weight: 800;
 }
+.contactSection h3 {
+    background: url(style-images/shopLine.png)no-repeat bottom;
+    padding-bottom: 9px;
+    padding-top: 13px;
+}
+.contactSection h3 {
+    font-weight: bold;
+}
+
 /* SHOP CONTACT END */
 
 /* LOG IN START */
