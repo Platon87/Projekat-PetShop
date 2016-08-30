@@ -67,10 +67,34 @@ jQuery(document).ready(function ($) {
         });
     });
 
-    /* fFILTER NAV START */
+    /* FILTER NAV START */
+
+// Show / Hide rows - Korpa (User Panel)
+
+$('button.Show_Hide').click(function (){
+   $('tr.hiddenTr').toggle('slide'); 
+});
+
+  $('.Show_Hide').click(function () {
+        var txt = $(this).text();
+       
+        if (txt == 'Show more') {
+            $(this).text('Show less');
+        } else {
+            $(this).text('Show more');
+        }
+});
 
 
 
+$('.shoppingCart').click(function () {
+        $('.shoppingCartContent').toggle('slide');
+});
+
+$('.remove').click(function () {
+        $(this).parent().parent().hide();
+
+});
 
 });
 

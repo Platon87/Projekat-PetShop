@@ -1,0 +1,516 @@
+figure.userfigureImg{
+    border: 1px solid #fff;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background: #ccc;
+    border-radius: 50%;
+}
+.userPanel {
+    margin-top: 29px;
+}
+img.userProfilePic{
+    width: 150px;
+    height: 150px;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+}
+p.userInfoP{
+    color: #1377c5;
+    font-weight: 100;
+}
+a.userInfoEmail{
+    text-decoration: none;
+    color: #1377c5;
+    font-weight: 800;
+}
+
+h2.userInfoHeadline{
+    margin: 0;
+    font-weight: 100;
+    padding-bottom: 20px;
+    display: inline;
+}
+
+h2.userInfoHeadlineMessage{
+    margin: 0 0 20px 0;
+    font-weight: 100;
+    display: inline;
+}
+
+div.userTabContent{
+    background: #f2f2f2;
+    padding: 20px;
+}
+
+span.userMessage{
+    color: red;
+    padding-right: 20px;
+    font-weight: 800;
+}
+
+p.inboxMessage{
+    padding-top: 15px;
+}
+
+.messageDate, .messageTime{
+    color: gray;
+    padding: 5px;
+    font-weight: 800;
+}
+
+div.message,message2{
+    padding: 10px 15px;
+    border-bottom: 1px solid #b3b3b3;
+
+}
+
+div.message:hover, div.message:focus{
+    background: #e6e6e6;
+    transition: .5s;
+}
+
+
+span.fa-trash{
+    color: #1377c5;
+    font-size: 25px;
+}
+
+span.fa-reply{
+    padding-left: 20px;
+    font-size: 20px;
+    color: red;
+}
+
+i.reply{
+    color: red;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+#comment, #comment2, #comment3{
+    display: none;
+    border-color: gray;
+    box-shadow: none;
+
+}
+
+div.ifReplayed{
+    padding-left: 80px;
+}
+
+.replyCheckbox{
+    margin-top: 50px;
+}
+
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 0;
+    color: #1377c5;
+}
+
+tr.article1{
+    border-bottom: 1px solid #ddd;
+}
+
+tr.article2{
+    border-bottom: 1px solid #ddd;
+}
+
+
+tr.hiddenTr{
+    display: none;
+}
+
+button.Show_Hide{
+    background: #1377c5;
+    color: #fff;
+    opacity: .7;
+}
+
+button.Show_Hide:focus,button.Show_Hide:hover{
+    color: #fff;
+    background: #1377c5;
+    opacity: 1;
+}
+
+h1.error{
+    font-weight: 800;
+    color: #1377c5;
+    display: inline;
+}
+
+span.span404{
+    color: #000;
+    font-weight: 800;
+    padding-left: 20px;
+}
+
+a.backToHome{
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* KORPA CSS START */
+figure.mainBucketImg{
+    position: relative;
+    border: 1px solid #ddd;
+    background: lightgray;
+}
+
+figure.mainBucketImg img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+figure.mainBucketImg a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+input.ammountInput{
+    line-height: 20px;
+    width: 50px;
+}
+
+div.korpa tr td{
+    border-bottom: 1px solid #ddd;
+}
+
+span.total{
+
+    font-weight: 800;
+    font-size: 15px;
+    display: block;
+}
+
+i.cost{
+    padding-left: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #1377c5;
+}
+
+p.napomenaKorpa{
+    display: block;
+}
+
+
+
+
+/* KORPA CSS STOP */
+
+tr.redovi2 figure img{
+    border-radius: 8px;
+}
+
+tr.redovi2 figure{
+    border-radius: 8px;
+}
+
+span.orderBadge{
+    position: absolute;
+    right: -10px;
+    top: -5px;
+    opacity: .8;
+    background: red;
+}
+
+table.orderTable tbody{
+    border-bottom: 1px solid #ccc;
+}
+
+div.rightSideMenu{
+    background: #f2f2f2;
+    padding-top: 30px;
+    border-radius: 6px;
+}
+
+button.KorpaButton2{
+    border: none;
+    padding: 5px 20px;
+    background: #1377c5;
+    color: #fff;
+    font-weight: 800;
+    opacity: .7;
+    margin-bottom: 5px;
+    font-size: 15px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+button.KorpaButton2:hover,button.KorpaButton2:focus{
+    background: #1377c5;
+    opacity: 1;
+    color: #fff;
+    transition: .5s;
+}
+
+div.popustButton{
+    text-align: center;
+}
+
+div.popustDiv{
+    padding-bottom: 20px;
+}
+
+.medjuzbirTfoot{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+div.OrderPageCartMenu{
+    background: #000;
+    margin: 0;
+    padding: 20px 20px;
+    color: #fff;
+}
+
+a.showHideFiltersBasket{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 25px;
+    font-size: 17px; 
+    line-height: 25px;
+    transition: .5s;
+    padding: 0;
+}
+
+a.showHideFiltersBasket:hover{
+    outline: none;
+    color: #1377c5;
+
+}
+
+p.orderPageP{
+    margin: 0;
+}
+
+span.finalPrice{
+    font-size: 30px;
+    color: #1377c5;
+    line-height: 30px;
+    font-weight: 800;
+}
+
+span.totalSpan{
+    font-size: 15px;
+    color: #1377c5;
+}
+
+footer .fa-map-o{
+    text-align: left;
+}
+
+a.nalog-a,a.prijava-a{
+    text-decoration: none;
+
+}
+
+a.nalog-a{
+    color: gray;
+}
+
+a.prijava-a{
+    padding-left: 15px;
+    color: #1377c5;
+}
+
+span.arrowBack{
+    padding-right: 10px;
+    font-weight: 800;
+}
+
+a.orderA{
+    text-decoration: none;
+    border: none;
+    padding: 10px 10px;
+    background: #1377c5;
+    color: #fff;
+    font-weight: 800;
+    opacity: .7;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}
+
+a.orderA2{
+    text-decoration: none;
+    border: none;
+    padding: 10px 10px;
+    background: #1377c5;
+    color: #fff;
+    font-weight: 800;
+    opacity: .7;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+a.orderA:hover,a.orderA:focus{
+    background: #1377c5;
+    opacity: 1;
+    transition: .5s;
+    color: #fff;
+}
+
+a.orderA2:hover,a.orderA2:focus{
+    background: #1377c5;
+    opacity: 1;
+    transition: .5s;
+    color: #fff;
+}
+
+a.orderMiniMenu{
+    display: inline;
+    text-decoration: none;
+}
+
+ul.orderUnderList{
+    border-top: 1px solid #ccc;
+    margin-top: 50px;
+}
+
+p.dostavaP{
+    color: gray;
+    font-size: 13px;
+}
+
+p.dostavaP-1{
+     color: gray;
+    font-size: 13px;
+
+}
+
+span.dostavaP-1{
+    color: gray;
+    font-size: 13px;
+    display: inline;
+}
+
+a.azuriranjeDostave{
+    font-size: 13px;
+    text-decoration: none; 
+    font-weight: 800;
+}
+
+a.azuriranjeDostave2{
+    font-size: 13px;
+    text-decoration: none; 
+    font-weight: 800;
+    padding-top: 25px;
+}
+
+div.azuriranjeDostave2{
+    margin-top: 25px;
+}
+
+a.azuriranjeDostave2-1{
+     font-size: 13px;
+    text-decoration: none; 
+    font-weight: 800;
+    padding-top: 25px;
+display: block;
+
+}
+
+div.adresaDostave{
+    padding-bottom: 30px;
+}
+
+
+div.radioBoxDostava{
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 20px 20px 40px 20px;
+    color: #1377c5;
+    margin-bottom: 30px;
+}
+
+div.radioBoxDostava2{
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 20px 20px 40px 20px;
+    color: #1377c5;
+
+}
+
+div.radioBoxDostava2-1{
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    border-top: 0;
+    padding: 20px 20px 40px 20px;
+    color: #1377c5;
+}
+
+span.free{
+    font-weight: 800;
+    color: #1377c5;
+}
+
+span.radioFree{
+    font-weight: 800;
+}
+
+div.placanjePouzecem1{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+
+}
+
+p.pouzeceP{
+    margin: 0;
+    color: #1377c5;
+    font-weight: 800;
+}
+
+div.placanjePouzecem2{
+    border: 1px solid #ccc;
+    border-top: 0;
+    padding: 25px;
+    background: #f2f2f2;
+    margin-bottom: 30px;
+}
+div.placanjePouzecem2-1{
+    border: 1px solid #ccc;
+    border-top: 0;
+    padding: 25px;
+    background: #f2f2f2;
+    margin-bottom: 30px;
+    display: none;
+}
+
+span.spanPlacanje{
+    color: gray;
+    font-size: 18px;
+    line-height: 10px;
+    font-weight: 800;
+}
+span.orderNumber{
+    color: gray;
+}
+
+button.porudzbinaButton{
+    background: #1377c5;
+    border: none;
+}
+
