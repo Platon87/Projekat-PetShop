@@ -148,10 +148,13 @@ h1.error{
     color: #1377c5;
     display: inline;
 }
+.error_section {
+    padding: 100px;
+}
 
 span.span404{
-    color: #000;
-    font-weight: 800;
+    color: #ff531a;
+    font-weight: bold;
     padding-left: 20px;
 }
 
