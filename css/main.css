@@ -7,182 +7,189 @@ header .container-fluid {
     background-color: #f5f5f5;
 }
 header a {
-        padding-left: 33px;
-    }
-    header fa {
-        font-size: 25px;
-    }
-    .headerBottom .col-sm-4 img{
-        padding: 27px;
-    }
-    .headerBottom .media {display: none;}
-    .cart1 {
-        position: relative;
-    }
-    .cartNum {
-        position: absolute;
-        top: -8px;
-        right: 7px;
-    }
-    .cart {
-        float: right;
-        padding-bottom: 20px;
-    }
-    .carousel-caption h1 {
-        font-size: 14px;
-    }   
-    .carousel-caption h2 {
-        font-size: 14px;
-    }   
-    .carousel-caption p {
-        display: none;
-    }
+    padding-left: 33px;
+}
+header fa {
+    font-size: 25px;
+}
+.headerBottom .col-sm-4 img{
+    padding: 27px;
+}
+.fa-shopping-basket{
+    font-size: 25px; 
+    color: #a2a2a2;
+    line-height: 50px;
+}
 
-    .carousel-caption {
-        text-align: right;
-        top: 23%;
-        right: 39%;
-        width: 75%;
-    }
-    .carousel-caption button {
-        padding: 4px;
-    }
-    .carousel-caption .learnmore {
-        padding: 4px;
-    }
-    .servicesOffer h3 {
-        margin-left: 20px;
-    }
-    .servicesOffer p {
-        padding-left: 15px;
-    }
-    .wellness1 {
-        position: relative;
-        margin-bottom: 10px;
-    }
+.shoppingCart{
+    position: relative;
+}
 
-    .wellness2 {
-        position: absolute;
-        width:  151px;
-        left: 10px;
-        bottom: 70px;
-        color: #fff;
-        top: 12px;
-    }
-    .foods {
-        position: relative;
-        margin-bottom: 10px;
-    }
+.shoppingCart .badge{
+    position: absolute;
+    background: #f44027;
+    margin-left: -22px;
+    margin-top: 12px;
+}
+.cart {
+    float: right;
+    padding-bottom: 20px;
+}
+.carousel-caption h1 {
+    font-size: 14px;
+}   
+.carousel-caption h2 {
+    font-size: 14px;
+}   
+.carousel-caption p {
+    display: none;
+}
 
-    .foods1 {
-        position: absolute;
-        width: 177px;
-        left: 10px;
-        bottom: 70px;
-        color: #fff;
-        top: 12px;
-    }
-    .foods2 {
-        position: absolute;
-        top: 47px;
-        left: 23px;
-    }
-    .foods1 p:last-of-type  {
-        display: none;
-    }
-    .foods2 img{
-        z-index: -1;
-    }
-    .col-sm-3 {
-        margin-bottom: 13px;
-    }
-    .col-sm-12 {
-        margin-bottom: 13px;
-    }
-    .store button {
-        padding: 9px;
-    }
-    .chooseUs .col-sm-3 {
-        margin-bottom: 39px;
-    }
-    #testimonial-slider {
+.carousel-caption {
+    text-align: right;
+    top: 23%;
+    right: 39%;
+    width: 75%;
+}
+.carousel-caption button {
+    padding: 4px;
+}
+.carousel-caption .learnmore {
+    padding: 4px;
+}
+.servicesOffer h3 {
+    margin-left: 20px;
+}
+.servicesOffer p {
+    padding-left: 15px;
+}
+.wellness1 {
+    position: relative;
+    margin-bottom: 10px;
+}
 
-        margin-top: 43px;
-    }
-    .testimonials .imgClient .col-sm-6 {
+.wellness2 {
+    position: absolute;
+    width:  151px;
+    left: 10px;
+    bottom: 70px;
+    color: #fff;
+    top: 12px;
+}
+.foods {
+    position: relative;
+    margin-bottom: 10px;
+}
 
-        margin-bottom: 35px;
-    }
-    .contentAbsolute {
-        visibility: hidden;
-    }
+.foods1 {
+    position: absolute;
+    width: 177px;
+    left: 10px;
+    bottom: 70px;
+    color: #fff;
+    top: 12px;
+}
+.foods2 {
+    position: absolute;
+    top: 47px;
+    left: 23px;
+}
+.foods1 p:last-of-type  {
+    display: none;
+}
+.foods2 img{
+    z-index: -1;
+}
+.col-sm-3 {
+    margin-bottom: 13px;
+}
+.col-sm-12 {
+    margin-bottom: 13px;
+}
+.store button {
+    padding: 9px;
+}
+.chooseUs .col-sm-3 {
+    margin-bottom: 39px;
+}
+#testimonial-slider {
 
-    .procentage {
-        color: #2a2a2a;
-        padding-left: 8px;
-        padding-right: 20px;
-    }
-    .fa-heart-o::before {
-        content: "\f08a";
-    }
-    *::before, *::after {
-        padding-right: 9px;
-    }
-    .blog .content a {
-        padding-left: 17px;
-    }
-    .blog .col-sm-4 {
-        margin-top: 28px;
-    } 
-    .footerDiv span{
-        padding-left: 9px;
-    }
-    .footerBody .openTime {
-        margin-top: 59px;
-    }
-    .newsletter {
-        margin-top: 39px;
-    }
-    .offer {
-        margin-top: 21px;
-    }
-    .blogArticle {
-        margin-bottom: 33px;
-        margin-top: 21px;
-    }
-    .blog1 .blogHover {
-        padding:  45px;
-    }
-    .blog1 .content .fa {
-        padding-left: 6px;
-    }
-    .sideTags {
-        margin-top: 61px;
-    }
-    .fancybox img {
-        margin-bottom: 10px;
-        margin-top: 21px;
-    }
-    .divAuthor .media-left img {
-        text-align: center;
-        display: inline-block;
-    }
-    .singleComment {
-        display: inline-block;
-    }
-    .divAuthor img {
-        margin-left: 22%;
-    }
-    .divAuthor .media-left img { 
-        margin-left: 0px;
-    }
-    .commentSingle1 {
-        margin-top: 31px;
-    }
-    .similarProduct article {
-        margin-bottom: 37px;
-        margin-top: 17px;
-    }
+    margin-top: 43px;
+}
+.testimonials .imgClient .col-sm-6 {
+
+    margin-bottom: 35px;
+}
+.contentAbsolute {
+    visibility: hidden;
+}
+
+.procentage {
+    color: #2a2a2a;
+    padding-left: 8px;
+    padding-right: 20px;
+}
+.fa-heart-o::before {
+    content: "\f08a";
+}
+*::before, *::after {
+    padding-right: 9px;
+}
+.blog .content a {
+    padding-left: 17px;
+}
+.blog .col-sm-4 {
+    margin-top: 28px;
+} 
+.footerDiv span{
+    padding-left: 9px;
+}
+.footerBody .openTime {
+    margin-top: 59px;
+}
+.newsletter {
+    margin-top: 39px;
+}
+.offer {
+    margin-top: 21px;
+}
+.blogArticle {
+    margin-bottom: 33px;
+    margin-top: 21px;
+}
+.blog1 .blogHover {
+    padding:  45px;
+}
+.blog1 .content .fa {
+    padding-left: 6px;
+}
+.sideTags {
+    margin-top: 61px;
+}
+.fancybox img {
+    margin-bottom: 10px;
+    margin-top: 21px;
+}
+.divAuthor .media-left img {
+    text-align: center;
+    display: inline-block;
+}
+.singleComment {
+    display: inline-block;
+}
+.divAuthor img {
+    margin-left: 22%;
+}
+.divAuthor .media-left img { 
+    margin-left: 0px;
+}
+.commentSingle1 {
+    margin-top: 31px;
+}
+.similarProduct article {
+    margin-bottom: 37px;
+    margin-top: 17px;
+}
 .cart1 {
     position: relative;
 }

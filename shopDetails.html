@@ -86,12 +86,64 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-sm-1">
                             <div class="cart">
-                                <span class="cart1"><img src="img/cart.png" alt=""/></span>
-                                <span class="cartNum"><img src="img/carNum.png" alt=""/></span>
+                                <a class="shoppingCart" href="#"><span class="fa fa-shopping-basket"></span><span class="badge">10</span></a>
                             </div>
                         </div>
+
+                        <!-- SHOPPING BASKET  START -->
+
+                        <div class="shoppingCartContent">
+                            <table class="table table-responsive tableCart">
+                                <tbody>
+                                    <tr> 
+                                        <td>
+                                            <figure class="cartFigure">
+                                                <a href="#"><img src="img/product-img3.jpg" alt=""/></a>
+                                            </figure>
+                                        </td>
+                                        <td>Pet Food</td> 
+                                        <td class="tdPrice">$ 50,00</td> 
+
+                                        <td><a href="#javascript:void(0)" class="remove">Remove</a></td>
+                                    </tr> 
+                                    <tr> 
+                                        <td>
+                                            <figure class="cartFigure">
+                                                <a href="#"><img src="img/product-img.jpg" alt=""/></a>
+                                            </figure>
+                                        </td>
+                                        <td>Neck Harness</td> 
+                                        <td class="tdPrice">$ 120,00</td> 
+
+                                        <td><a href="#javascript:void(0)" class="remove">Remove</a></td>
+                                    </tr> 
+                                    <tr> 
+                                        <td>
+                                            <figure class="cartFigure">
+                                                <a href="#"><img src="" alt=""/></a>
+                                            </figure>
+                                        </td>
+                                        <td>Talking Parrot</td> 
+                                        <td class="tdPrice">$ 380,00</td> 
+
+                                        <td><a href="#javascript:void(0)" class="remove">Remove</a></td>
+                                    </tr> 
+                                </tbody>
+                                <tfoot>
+                                    <tr class="trBuy"> 
+                                        <td>TOTAL:</td> 
+                                        <td></td> 
+                                        <td><a href='Korpa.html'><button class="btn-default cartButton">BUY</button></a></td>
+                                        <td></td> 
+                                    </tr> 
+                                </tfoot>
+                            </table>
+                        </div>
+                        <!-- SHOPPING BASKET  END -->
+
                     </div>
                 </div>
             </section>
@@ -724,7 +776,7 @@
 
 
 
-<!-- Modal Pop-up Start-->
+        <!-- Modal Pop-up Start-->
         <div class="modal fade" id="myModal" role="dialog">
             <div class="modal-dialog">
 
