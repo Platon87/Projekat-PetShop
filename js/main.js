@@ -95,6 +95,13 @@ $('.remove').click(function () {
         $(this).parent().parent().hide();
 
 });
+$('#replyMessage').click(function () {
+        $('#comment').toggle('slide');
+    });
+
+    $(' #replyMessage2').click(function () {
+        $('#comment2').toggle('slide');
+});
 
 });
 
