@@ -5,24 +5,6 @@
     p.headerSocial {
         float: right;
     }
-
-    .cart1 {
-        position: relative;
-    }
-    .cartNum {
-        position: absolute;
-        top: -8px;
-        right: 7px;
-    }
-    .cart {
-        float: right;
-    }
-    .cart {
-        margin-top: 43px;
-    }
-    .cartNum {
-        margin-top: 44px;
-    }
     .headerBottom .media {
         margin-top: 27px;
     }
@@ -34,6 +16,9 @@
     .headerBottom .media {
         display: block;
     }
+    .headerBottom .col-sm-2 {
+    display: inline;
+}
 
     .carousel-caption h1 {
         font-size: 43px;

@@ -15,25 +15,32 @@ header fa {
 .headerBottom .col-sm-4 img{
     padding: 27px;
 }
+.headerBottom .col-sm-2 {
+    display: none;
+}
 .fa-shopping-basket{
     font-size: 25px; 
     color: #a2a2a2;
     line-height: 50px;
 }
 
-.shoppingCart{
+.fa fa-shopping-basket{
     position: relative;
 }
 
 .shoppingCart .badge{
     position: absolute;
     background: #f44027;
-    margin-left: -22px;
-    margin-top: 12px;
+    margin-left: -21px;
+    margin-top: 7px;
 }
 .cart {
     float: right;
-    padding-bottom: 20px;
+    padding: 18px 2px;
+}
+.badge {
+    border-radius: 30px;
+    padding: 5px;
 }
 .carousel-caption h1 {
     font-size: 14px;
@@ -47,9 +54,9 @@ header fa {
 
 .carousel-caption {
     text-align: right;
-    top: 23%;
-    right: 39%;
-    width: 75%;
+    top: 12%;
+    right: 38%;
+    width: 80%;
 }
 .carousel-caption button {
     padding: 4px;
